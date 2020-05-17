@@ -1,4 +1,4 @@
-const fetchRatings = () => {
+function fetchRatings() {
   let mediaList = document.querySelectorAll('.media-lists__td-title');
 
   mediaList.forEach(movie => {
