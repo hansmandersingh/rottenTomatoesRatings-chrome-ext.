@@ -1,5 +1,5 @@
 # rottenTomatoesRatings-chrome-ext.
-Adds IMDB ratings next to movie names on rotten tomatoe 🍅 webpage
+Adds IMDB ratings next to movie names on rotten tomato 🍅 webpage
 
 ## How to use this:
 
