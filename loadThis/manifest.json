@@ -1,5 +1,16 @@
 {
-  "name": "Rotten Tomamtoes",
-  "description": "Rotten Tomatoes Ratings from IMDB",
-  "version": "0.1"
+  "name": "Rotten Tomatoes",
+  "description": "Adds IMDB ratings to the rotten tomatoes webapage.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["contextMenus"],
+  "content_scripts": [{
+    "matches": [
+      "https://www.rottentomatoes.com/*"
+    ],
+    "js": ["content.js"]
+  }]
 }
